@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="General test suite" configfailurepolicy="continue">
+	<suite-files>
+		<!-- Chrome suite -->
+		<suite-file path="test_in_chrome.xml" />
+		<!-- Firefox suite -->
+		<suite-file path="test_in_firefox.xml" />
+	</suite-files>
+</suite>
